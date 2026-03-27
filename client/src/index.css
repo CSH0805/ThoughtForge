@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ReactFlow 배경 어둡게 */
+.react-flow__renderer {
+  background-color: #0f172a;
+}
+
+.react-flow__controls button {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #e2e8f0;
+}
+
+.react-flow__controls button:hover {
+  background-color: #334155;
+}
+
+/* 마크다운 스크롤 */
+.markdown-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.markdown-scroll::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.markdown-scroll::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 3px;
+}
